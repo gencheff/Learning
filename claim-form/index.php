@@ -5,50 +5,44 @@
 	<link rel="stylesheet" type="text/css" href="form.css">
 </head>
 <body>
-	<?php
-	//require 'index.views.php';
+	<div class="wrapper">
+		<section class="contact">
+			<div class="contact__head">
+				<h2>Claim Form</h2>
+			</div>
 
+			<div class="contact__body">
+				<form class="form">
+					<div class="form__row">
+						<div class="form__label">
+							<label for="first-name">First Name</label>  
+						</div>
 
-      if (isset($_POST['submit'])) {
+						<div class="form__controls">
+							<input type="text" id="first-name" name="first-name">
+						</div>
+					</div>
 
-    	$firstname = $_POST['firstname'];
-    	$secondname = $_POST['secondname'];
-    	$lastname = $_POST['lastname'];
-    	$email = $_POST['email'];
-    	$telephone = $_POST['telephone'];
-    	$username = $_POST['username'];
-    	$password = $_POST['password'];
+					<div class="form__row">
+						<div class="form__label">
+							<label for="last-name">Last Name</label>
+						</div>
 
+						<div class="form__controls">
+							<input id="last-name" type="text" name="last-name">
+						</div>
+					</div>
 
-       }
+					<div class="form__button">
+						<input type="submit" name="submit" value="Submit">
+					</div>
+				</form>	
+			</div>
 
-    ?>
-
-	<h1>Registration Form</h1>
-	<div class="container">
-		<form action="index.php" method="POST">
-			First Name <input type="text" name="firstname"><br>
-			Second Name <input type="text" name="secondname"><br>
-			Last Name <input type="text" name="lastname"><br>
-			Email <input type="email" name="email"><br>
-			Telephone <input type="text" name="telephone"><br>
-			User Name <input type="text" name="username"><br>
-			Password <input type="password" name="password"><br>
-			Submit <input type="Submit" name="submit"><br>
-		</form>
+			<div class="contact__foot">
+				<h2>This is where the message goes!</h2>
+			</div>
+		</section>
 	</div>
-
-
-
-
-
-   
-
-
-
-
-
-
 </body>
 </html>
-
