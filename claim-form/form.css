@@ -1,12 +1,56 @@
-body {
-  background-color: lightblue;
-  
+/* contact */
+
+.contact {
+	background-color: lightblue;
 }
 
-.container {
-	border: solid 2px darkblue;
-	margin:auto;
+.contact .contact__head {
+	padding: 20px 0;
+}
 
+.contact .contact__head h2 {
+	text-align: center;
+	font-size: 50px;
+}
 
+.contact .contact__body {
+	padding: 10px 0;
+}
+
+.contact .contact__foot{
+	padding: 20px 0;
+}
+
+.contact .contact__foot h2 {
+	text-align: center;
+} 
+
+/* form */
+.form {
+	margin: auto;
+	max-width: 40%;
+	padding: 5px;
+	border: solid 2px black;
+	box-sizing: border-box;
+
+}
+
+.form .form__row {
+	overflow: hidden;
+	padding: 3px 0;
+}
+
+.form .form__label,
+.form .form__controls {
+	width: 50%;
+	float: left;
+}
+
+.form .form__controls input {
+	width: 100%;
+}
+
+.form .form__button {
+	text-align: right;
 }
 
