@@ -6,7 +6,7 @@
 .head {
 	background-color: rgb(240, 230, 231);
 	height: 170px;
-	width: 1000px;
+	width: 100%;
 	
 }
 
@@ -21,9 +21,9 @@
 .body {
 	background-color: rgb(240, 230, 231);
 	height: 170px;
-	width: 1000px;
+	width: 100%;
 	margin: 10px;
-	box-sizing: border-box;
+	
 	
 }
 
@@ -31,15 +31,15 @@
 	background-color: rgb(9, 156, 230);
 	height: 140px;
 	width: 140px;
-	margin: 10px;
-	float: center;
+	margin: 20px;
+	text-align: center;
 	
 }
 
 .foot {
 	background-color: rgb(240, 230, 231);
 	height: 170px;
-		
+	width: 100%;	
 	margin: 10px;
 	box-sizing: border-box;
 	

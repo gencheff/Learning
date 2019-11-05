@@ -21,6 +21,13 @@
 
 }
 
+.rectangular1 {
+    background-color: rgb(131, 132, 222);
+    height: 100px;
+    width: 500px;
+    float: right;
+}
+
 .body {
 	background-color: rgb(213, 220, 230);
     width: 100%;
@@ -28,9 +35,38 @@
     margin: 10px auto;
 }
 
+.square2 {
+    background-color: rgb(235, 58, 14);
+    width: 100px;
+    height: 100px;
+    float: right;
+}
+
+.rectangular2 {
+    background-color: rgb(131, 132, 222);
+    height: 100px;
+    width: 500px;
+    float: left;
+}
+
+
 .foot {
 	background-color: rgb(213, 220, 230);
     width: 100%;
     height: 180px;
     margin: 10px auto;
+}
+
+.square3 {
+    background-color: rgb(235, 58, 14);
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+.rectangular3 {
+    background-color: rgb(131, 132, 222);
+    height: 100px;
+    width: 500px;
+    float: right;
 }
