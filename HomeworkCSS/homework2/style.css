@@ -1,72 +1,33 @@
 .wrapper {
-	display: inline;
-
-
-
+    text-align: center;
 }
-
-.head {
-    background-color: rgb(213, 220, 230);
-    width: 100%;
-    height: 180px;
-    margin: 10px auto;
-
-
+.section-double {
+    background-color: #c9c9c9;
+    padding: 30px;
+    overflow: hidden;
+    display: inline-block;
 }
-.square1 {
-	background-color: rgb(235, 58, 14);
-	width: 100px;
-	height: 100px;
-	float: left;
+.section-double ~ .section-double  {
+    margin-top: 40px;   
+}  
+.section-double .section__square {
+    height: 200px;
+    width: 200px;
+    background-color: #d47300; 
+    float: left; 
+      
+}    
 
-}
-
-.rectangular1 {
-    background-color: rgb(131, 132, 222);
-    height: 100px;
-    width: 500px;
-    float: right;
-}
-
-.body {
-	background-color: rgb(213, 220, 230);
-    width: 100%;
-    height: 180px;
-    margin: 10px auto;
-}
-
-.square2 {
-    background-color: rgb(235, 58, 14);
-    width: 100px;
-    height: 100px;
-    float: right;
-}
-
-.rectangular2 {
-    background-color: rgb(131, 132, 222);
-    height: 100px;
-    width: 500px;
+.section-double .section__rectangular {
+    width: 450px;
+    height: 200px;
+    background-color: #2489a7;
     float: left;
 }
+/*.section-double div ~ div {
+    margin-left: 40px;
+}*/
 
-
-.foot {
-	background-color: rgb(213, 220, 230);
-    width: 100%;
-    height: 180px;
-    margin: 10px auto;
-}
-
-.square3 {
-    background-color: rgb(235, 58, 14);
-    width: 100px;
-    height: 100px;
-    float: left;
-}
-
-.rectangular3 {
-    background-color: rgb(131, 132, 222);
-    height: 100px;
-    width: 500px;
-    float: right;
+.section-double div:last-child {
+    margin-left: 80px;
 }

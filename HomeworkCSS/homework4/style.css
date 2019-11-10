@@ -1,0 +1,56 @@
+.sections {
+	overflow: hidden;
+
+}
+.section {
+	float: left;
+	width: 30%;
+	padding: 20px;
+}
+.section .section__head,
+.section .section__foot,
+.section .section__body {
+	background-color: #c9c9c9;
+	padding: 20px;
+	float: left;
+
+}
+.section .section__square {
+	background-color: #2489a7;
+	width: 80px;
+	height: 80px;
+	float: left;
+	margin-right: 20px;
+
+}
+.section .section__rectangular {
+	background-color: #d47300;
+	width: 140px;
+	height: 80px;
+	float: left;
+
+
+}
+.section .section__body {
+	margin: 20px 0px;
+}
+.section .section__body .section__square {
+	float: right;
+	margin-right: 0px;
+	margin-left: 20px;
+}
+
+.section--alt .section__head .section__square,
+.section--alt .section__foot .section__square {
+	float: right;
+	margin-left: 20px;
+	margin-right: 0px;
+}
+.section--alt .section__body .section__square {
+	float: left;
+	margin-right: 20px;
+	margin-left: 0px;
+}
+.section--alt .section__body .section__rectangular {
+	float: right;
+}

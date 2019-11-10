@@ -1,21 +1,33 @@
-.wrapper {
-   
+.articles {
+	text-align: center;
 }
+.article {
+	background-color: #c9c9c9;
+	padding: 30px;
+	display: inline-block;
+	
 
-.left-container {
-	background-color: rgb(214, 206, 184);
-	height: 100%;
-	width: 33%;
+
 }
-
-.middle-container {
-	background-color: rgb(214, 206, 184);
-	height: 100%;
-	width: 33%;
+.article__body {
+	overflow: hidden;
 }
-
-.right-container {
-	background-color: rgb(214, 206, 184);
-	height: 100%;
-	width: 33%;
+.article .article__head {
+	background-color: #d47300;
+	width: 220px;
+	height: 200px;
+	margin-bottom: 20px;
+}
+.article .article__square {
+	background-color: #2489a7;
+	width: 80px;
+	height: 80px;
+	float: left;
+	margin-right: 20px;
+}
+.article .article__rectangular {
+	background-color: #22a653;
+	width: 120px;
+	height: 80px;
+	float: left;	
 }
