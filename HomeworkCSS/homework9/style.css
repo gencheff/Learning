@@ -1,0 +1,59 @@
+.sections {
+	overflow: hidden;
+}
+.section__head {
+    margin:10px;	
+}
+.section__head .section__square {
+	background-color: #22a653;
+	width: 80px;
+	height: 80px;
+	float: left;
+}
+.section__head .section__rectangular {
+	background-color: #d47300;
+	width: 390px;
+	height: 40px;
+	margin-left: 90px;
+}
+.section__body{
+	padding-left: 100px;
+	margin-top: 20px;
+}
+.section__body .section__main {
+	background-color: #c9c9c9;
+	width: 780px;
+	height: 220px;
+}
+.section__body .section__main2 {
+	background-color: #a8a8a8;
+	width: 780px;
+	height:107px;
+	margin-top: 20px;
+}
+.section__foot {
+	float: left
+}
+.section__foot .section__foot__sm-rect {
+	background-color: #bc5aad;	
+	width: 55px;
+	height: 12px;
+	float: left;
+	margin-top: 23px;
+	margin-left: 100px;
+}
+.section__foot .section__foot__square {
+	background-color: #7323a6;
+	width: 40px;
+	height: 40px;
+	float: left;
+	margin:10px;
+}
+.section__foot .section__foot__big-rect {
+	background-color: #22a653;
+	width: 100px;
+	height: 40px;
+	float: right;
+	margin-left: 445px;
+	margin-top: 10px;
+}

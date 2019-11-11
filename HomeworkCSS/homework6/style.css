@@ -1,0 +1,24 @@
+.sections {
+	text-align: center;
+}
+.section {
+	float: left;
+	padding: 60px;
+}	
+.section .section__square {
+	background-color: #2489a7;
+	width:85px;
+	height: 80px;
+	display: inline-block;	
+}
+.section .section__sm-rectangular {
+	width: 140px;
+	height: 20px;
+	background-color: #d17000;
+	margin: 20px 50px 10px 50px;
+}
+.section .section__big-rectangular {
+	width: 240px;
+	height: 80px;
+	background-color: #22a653;
+}

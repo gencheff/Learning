@@ -1,0 +1,28 @@
+
+.section {
+	background-color: #c9c9c9;
+	overflow: hidden;
+}
+.section__main {
+	display: inline-block;
+}
+.section .section__square {
+	width: 260px;
+	height: 260px;
+	background-color: #22a653;
+	float: left;
+
+}
+.section .section__main .section__main__content {
+	background-color: #d47300;
+	width: 335px;
+	height: 20px;
+	margin:10px 30px 20px 10px;
+}
+.section .section__sm-rectangular {
+	background-color: #2489a7;
+	width: 100px;
+	height: 40px;
+	float: right;
+	margin:160px 20px 60px 150px;
+}	

@@ -1,0 +1,42 @@
+
+.sections {
+	overflow: hidden;
+	
+
+}
+.section1 {
+	display: inline-block;
+	
+}
+.section1 .section1__main {
+	width: 420px;
+	height: 190px;
+	background-color: #c9c9c9;
+
+
+}
+
+.section1 .section1__foot-square {
+	background-color: #22a653;
+	width: 90px;
+	height: 90px;
+	float: left; 
+	margin:20px;
+	margin-left: 0px;
+
+	
+}
+.section2 {
+	background-color: #c9c9c9;
+	display: inline-block;
+	
+
+
+}
+.section2 .section2__rectangular {
+	background-color: #d47300;
+	width: 390px;
+	height: 15px;
+	margin:10px;
+
+}
