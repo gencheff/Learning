@@ -6,6 +6,10 @@
 
 @import url('https://fonts.googleapis.com/css?family=Bebas+Neue|Calistoga|Dancing+Script|Gupter&display=swap');
 
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue|Calistoga|Dancing+Script|Gupter|Lilita+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Baskervville|Bebas+Neue|Calistoga|Dancing+Script|Gupter|Lilita+One&display=swap');
+
 * {
 	margin: 0;
 	padding: 0;
@@ -78,101 +82,85 @@
 	color: #7332a8;
 }
 
-.body {
+.body {	
 	display: flex;
+	justify-content: center;
 	width: 100%;
-	height: 2200px;
-	background-image: url(images/abstract.jpg);
+	height: 100%;
+	background-image: url(images/sagittis.jpg);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 
-.body .cards {
+.body .form {
+	width: 600px;
+	height: 560px;
+	margin: 50px;
 	display: flex;
 	flex-direction: column;
-	margin-left: 250px;
-	margin-top: 50px;
+	border: 16px solid #F6EDD9;
+	border-radius: 1%;
+	box-shadow: 15px 15px 5px #00BCDB;
+
 }
-.cards .card1 i,
-.cards .card2 i,
-.cards .card3 i,
-.cards .card4 i,
-.cards .card5 i,
-.cards .card6 i {
-	margin: 0 auto;
-	color: #444939;
+.body .form form {
+	display: flex;
+	flex-direction: column;
+
+}
+.body .form h1 {
+	margin: 30px auto;
+	font-family: 'Lilita One', cursive;
+	font-weight: lighter;
+	color: #113200;
+
+}
+
+.body .form input {
+	width: 200px;
+	height: 25px;
+	margin-top: 3px;
+	border-style: none;
+}
+
+
+/*.body .form:hover {
+	width: 650px;
+	height: 600px;
+	box-shadow: 30px 30px 5px #00BCDB;
+	border: 30px solid #F6EDD9;
+	transition: 350ms ease-in-out;
+}*/
+
+.body .form .item:focus{
+	width: 250px;
+	transition: 250ms ease-in;
+
+}
+
+.body .form .item--input {
+	font-family: 'Lilita One', cursive;
+	text-transform: uppercase;
+	font-size: 1rem;
+	height: 50px;
 	cursor: pointer;
 }
-
-
-
-.cards .card1 ,
-.cards .card2 ,
-.cards .card3 ,
-.cards .card4 ,
-.cards .card5 ,
-.cards .card6 {
-	width: 220px;
-	height: 300px;
-	border: 1px solid #2F4858;
-	border-radius: 20px;
-	box-shadow: 5px 10px 20px 3px #52A750;
-	flex-direction: column;
-	justify-content:space-around;
-	display: flex;
-	overflow: hidden;
-	margin-top: 30px;
+.body .form .item--input:hover{
+	font-size: 1.2rem;
+	box-shadow:  5px 5px 15px inset #00BCDB;
 }
 
-.cards .card4 ,
-.cards .card5 ,
-.cards .card6 {
-	
-
+.body .form label {
+	margin-top: 10px;
+	font-family: 'Gupter', serif;
+	font-weight: bolder;
+	font-size: 1.2rem;
+	margin: 5px auto 0;
 }
-/*.cards .card2 ,
-.cards .card5 {
-	margin:0 50px;
-}*/
-.cards .card1 .card1__img ,
-.cards .card2 .card2__img ,
-.cards .card3 .card3__img ,
-.cards .card4 .card4__img ,
-.cards .card5 .card5__img ,
-.cards .card6 .card6__img {
-	width: 150px;
-	height: 150px;
-	border-radius: 50%;
-	margin: 0 auto;
-
+.body .form  form .item {
+	margin: 5px auto 0;
 }
-
-.cards .card1 .card1__text ,
-.cards .card2 .card2__text ,
-.cards .card3 .card3__text ,
-.cards .card4 .card4__text ,
-.cards .card5 .card5__text ,
-.cards .card6 .card6__text {
-	font-family: 'Dancing Script', cursive;
-	font-size: 1.5rem;
-	padding: 10px;
-	text-align: center;
-	
-}
-.cards .card1 .card1__border ,
-.cards .card2 .card2__border,
-.cards .card3 .card3__border ,
-.cards .card4 .card4__border ,
-.cards .card5 .card5__border ,
-.cards .card6 .card6__border {
-	height: 2px;
-	width: 70px;
-	background-color: #00525F;
-	box-shadow: 2px 2px 5px 2px #00525F;
-	margin:0 auto;
-}
-
 .footer {
 	background-color: #86B040;
 	width: 100%;
